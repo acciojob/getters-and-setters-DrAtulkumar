@@ -27,7 +27,7 @@ class Student extends Person {
 
   // Method specific to Student class
   study() {
-    console.log(`${this.name} is studying.`);
+    console.log(`${this.name} should study`);
   }
 }
 
@@ -37,7 +37,7 @@ class Teacher extends Person {
 
   // Method specific to Teacher class
   teach() {
-    console.log(`${this.name} is teaching.`);
+    console.log(`${this.name} should teach`);
   }
 }
 
